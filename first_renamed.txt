@@ -1,12 +1,1 @@
-#include<stdio.h>
-int main()
-{
-    float a , b ;
-    a = 45;
-    b = 22;
-    printf(" a + b =%f\n", a + b);
-    printf(" a - b =%f\n", a - b);
-    printf(" a * b =%f\n", a * b);
-    printf(" a / b =%f\n", a / b);
-    return 0 ;
-}
+ 
