@@ -1,0 +1,20 @@
+print(" Totel number of floor is 21 ")
+print("Lift-1 and Lift-2  at ground floor") 
+current_floor =0
+user_floor = int(input("Enter the floor number\n"))
+
+difference = user_floor - current_floor
+
+if difference==0:
+    print(" Lift-1 Door opening : ")
+    print( "Enter the lift and floor no:")
+    user_floor = int(input())
+
+elif difference > 0 : 
+    print ( " Lift Moving up : ")
+
+elif difference < 0 : 
+    print ( " Lift Moving down : ")
+ 
+else:
+    print("")
